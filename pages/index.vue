@@ -5,12 +5,11 @@
 </template>
 
 <script>
-import { ref, useStore, useRouter, onMounted } from '@nuxtjs/composition-api'
+import { ref, useStore, onMounted } from '@nuxtjs/composition-api'
 export default {
   name: 'IndexPage',
   setup() {
     const store = useStore()
-    const router = useRouter()
     //.../
     onMounted(function () {
       store.state.persistance()

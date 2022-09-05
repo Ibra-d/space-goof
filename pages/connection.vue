@@ -2,6 +2,10 @@
   <div class="_conectionCodeContainer">
     <h1>CONNECTION PAGE</h1>
     <button @click="connection">ici</button>
+    <p>
+      vous n'avez pas de compte
+      <nuxt-link to="inscription">s'inscrire</nuxt-link>
+    </p>
   </div>
 </template>
 

@@ -3,7 +3,6 @@ import { useRoute, useRouter } from '@nuxtjs/composition-api'
 export const state = () => ({
   persistance: () => {
     const router = useRouter()
-    const route = useRoute()
     const userToken = localStorage.getItem('userToken')
     if (!userToken) {
       router.push('connection')

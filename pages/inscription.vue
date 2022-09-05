@@ -16,7 +16,7 @@ export default {
   setup() {
     const store = useStore()
     onMounted(function () {
-      store.state.persistance()
+      // store.state.persistance()
     })
   },
 }
